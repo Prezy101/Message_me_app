@@ -2798,3 +2798,124 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:09:42 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (1.1ms)
+  Rendered chatroom/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 109ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:22:36 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:23:31 +0200
+Processing by ChatroomController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant ChatroomController::Chartroom):
+  
+app/controllers/chatroom_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:25:29 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 54ms (Views: 52.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:26:35 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 47ms (Views: 43.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:29:19 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:30:08 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:30:42 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "How is everyone"], ["user_id", 5], ["created_at", "2019-02-15 14:31:15.248351"], ["updated_at", "2019-02-15 14:31:15.248351"]]
+  [1m[35m (22.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:31:18 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:31:47 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:32:47 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Is everyone fine today"], ["user_id", 1], ["created_at", "2019-02-15 14:33:51.897201"], ["updated_at", "2019-02-15 14:33:51.897201"]]
+  [1m[35m (15.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:33:55 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  Rendered chatroom/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 16:35:24 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" DESC[0m
+  Rendered chatroom/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.7ms)
+
+

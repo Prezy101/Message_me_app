@@ -16,28 +16,13 @@
           <div class="event">
             <div class="content">
               <div class="summary">
-                <em>Elliot Fu</em> Did you guys hear about the courses that are cheap in udemy?
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <em>Stevie Feliciano</em> udemy ruby on rails course is now 10 dollars
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <em>Helen Troy</em> President
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <em>Christian Rocha</em> Test message....
+                <% @messages.each do |msg|	  %>
+                  <ul>
+                    <li style="text-decoration: none">
+                      <%=	msg.body  %>
+                    </li>
+                  </ul>
+                <% end %>
               </div>
             </div>
           </div>
