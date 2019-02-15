@@ -1824,3 +1824,831 @@ Processing by ChatroomController#index as HTML
 Completed 200 OK in 378ms (Views: 376.4ms)
 
 
+Started POST "/plugin/urlSend/" for 127.0.0.1 at 2019-02-14 21:37:33 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/plugin/urlSend"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-15 08:24:16 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (1.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 570ms (Views: 323.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 08:29:03 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (1.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 106ms (Views: 105.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 08:42:22 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 467ms (Views: 352.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 08:51:16 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 36.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 08:52:54 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 39.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 09:40:53 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.1ms)
+  Rendered chatroom/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 09:51:42 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 43.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 09:52:15 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 09:54:10 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 45ms (Views: 44.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 09:58:43 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 09:59:11 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 45.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 10:33:43 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 43.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:05:10 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 46.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:05:54 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 44.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:06:38 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 42.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:06:48 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 43.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:07:14 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 46.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:11:54 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:20:11 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 46.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 11:35:20 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5060ms (Views: 5058.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:01:23 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 40ms (Views: 38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:03:23 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 35.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:04:05 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 41ms (Views: 38.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:39:26 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 56ms (Views: 54.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:39:40 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 44.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:40:53 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 41.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:41:05 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 47ms (Views: 46.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:41:46 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:48:37 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 37.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:49:14 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:08:07 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 42.0ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2019-02-15 13:08:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/categories/new"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:10:44 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 43.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:12:23 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (201.4ms)
+  Rendered sessions/new.html.erb within layouts/application (202.5ms)
+Completed 500 Internal Server Error in 206ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x00007f80498f1a80>:0x00007f80208c6868>
+Did you mean?  asset_path):
+    11:     <div class="ui dropdown item">
+    12:       Account <i class="dropdown icon"></i>
+    13:       <div class="menu">
+    14:         <a class="item"><%= link_to 'View all articles', articles_path %></a>
+    15:         <a class="item">Logout</a>
+    16:         <a class="item">Sing Up</a>
+    17:       </div>
+  
+app/views/layouts/_menu.html.erb:14:in `_app_views_layouts__menu_html_erb___1089108338585809404_70094139298080'
+app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___1219480300541478986_70094139308280'
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:12:42 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (1.4ms)
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 54ms (Views: 52.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:13:01 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 44ms (Views: 42.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:13:43 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.7ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 46.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:14:09 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.8ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:14:23 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.8ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 42ms (Views: 40.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:14:33 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 44ms (Views: 43.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:15:57 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 44.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:17:27 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 43.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:17:36 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 48.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:18:33 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.7ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 48ms (Views: 45.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:19:07 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 46.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:22:02 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 45.8ms)
+
+
+Started GET "/root_path" for 127.0.0.1 at 2019-02-15 13:22:06 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/root_path"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:22:12 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 42ms (Views: 41.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:22:25 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.2ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started GET "/root" for 127.0.0.1 at 2019-02-15 13:22:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/root" for 127.0.0.1 at 2019-02-15 13:24:28 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:24:45 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 45.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:24:49 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 45.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:24:52 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 52.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:25:41 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 57ms (Views: 56.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:25:58 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 44.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:26:35 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 49ms (Views: 47.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:26:50 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (1.1ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 69ms (Views: 67.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:27:25 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 45.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:27:38 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 44.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:27:54 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 46.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:28:21 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:29:00 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (218.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (219.9ms)
+Completed 500 Internal Server Error in 224ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sessions' for #<#<Class:0x00005652d1290ed0>:0x00007f80545808f0>
+Did you mean?  session):
+    11:     <div class="ui dropdown item">
+    12:       Account <i class="dropdown icon"></i>
+    13:       <div class="menu">
+    14:         <a class="item" href=" <%= sessions/new %>">Sing Up</a>
+    15:         <a class="item">Logout</a>
+    16:         <a class="item" href=" <%= root_path %>">Sing Up</a>
+    17: 
+  
+app/views/layouts/_menu.html.erb:14:in `_app_views_layouts__menu_html_erb___1089108338585809404_70094573780680'
+app/views/chatroom/index.html.erb:1:in `_app_views_chatroom_index_html_erb___2053136351125958712_70094573799740'
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:29:38 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (195.8ms)
+  Rendered chatroom/index.html.erb within layouts/application (196.9ms)
+Completed 500 Internal Server Error in 200ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sessions' for #<#<Class:0x00005652d1290ed0>:0x00007f80294ae560>
+Did you mean?  session):
+    11:     <div class="ui dropdown item">
+    12:       Account <i class="dropdown icon"></i>
+    13:       <div class="menu">
+    14:         <a class="item" href=" <%= sessions/new_path %>">Sing Up</a>
+    15:         <a class="item">Logout</a>
+    16:         <a class="item" href=" <%= root_path %>">Sing Up</a>
+    17: 
+  
+app/views/layouts/_menu.html.erb:14:in `_app_views_layouts__menu_html_erb___1089108338585809404_70094212597460'
+app/views/chatroom/index.html.erb:1:in `_app_views_chatroom_index_html_erb___2053136351125958712_70094212659100'
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:30:06 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (174.9ms)
+  Rendered chatroom/index.html.erb within layouts/application (176.1ms)
+Completed 500 Internal Server Error in 179ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sessions_path' for #<#<Class:0x00005652d1290ed0>:0x00007f8028d97a38>
+Did you mean?  session):
+    11:     <div class="ui dropdown item">
+    12:       Account <i class="dropdown icon"></i>
+    13:       <div class="menu">
+    14:         <a class="item" href=" <%= sessions_path %>">Login</a>
+    15:         <a class="item">Logout</a>
+    16:         <a class="item" href=" <%= root_path %>">Sing Up</a>
+    17: 
+  
+app/views/layouts/_menu.html.erb:14:in `_app_views_layouts__menu_html_erb___1089108338585809404_70094208912220'
+app/views/chatroom/index.html.erb:1:in `_app_views_chatroom_index_html_erb___2053136351125958712_70094208950900'
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:30:17 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (172.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (173.1ms)
+Completed 500 Internal Server Error in 175ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session_path' for #<#<Class:0x00005652d1290ed0>:0x00007f80287b4238>
+Did you mean?  session):
+    11:     <div class="ui dropdown item">
+    12:       Account <i class="dropdown icon"></i>
+    13:       <div class="menu">
+    14:         <a class="item" href=" <%= session_path %>">Login</a>
+    15:         <a class="item">Logout</a>
+    16:         <a class="item" href=" <%= root_path %>">Sing Up</a>
+    17: 
+  
+app/views/layouts/_menu.html.erb:14:in `_app_views_layouts__menu_html_erb___1089108338585809404_70094205904300'
+app/views/chatroom/index.html.erb:1:in `_app_views_chatroom_index_html_erb___2053136351125958712_70094205855260'
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:31:32 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 42.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:31:35 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 45ms (Views: 44.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:31:40 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 44.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:31:42 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 43.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:32:44 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 46.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:32:52 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37ms (Views: 36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:33:11 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 47ms (Views: 46.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:34:46 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.4ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 47ms (Views: 45.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:34:49 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.3ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 39.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:34:51 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 46ms (Views: 45.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:34:56 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.8ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 53ms (Views: 51.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:35:18 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.6ms)
+  Rendered chatroom/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 42ms (Views: 41.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-02-15 13:35:21 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.5ms)
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 43ms (Views: 41.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-15 13:35:24 +0200
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_menu.html.erb (0.8ms)
+  Rendered chatroom/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 50ms (Views: 49.4ms)
+
+
