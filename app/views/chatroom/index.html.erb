@@ -12,14 +12,14 @@
     <div class="ui fluid raised card checkbox">
       <div class="content">
         <div class="ui feed">
-          <h4 class="ui header">Followers Activity</h4>
+          <h4 class="ui header">Let's chat Ruby chat app</h4>
           <div class="event">
             <div class="content">
               <div class="summary">
                 <% @messages.each do |msg|	  %>
-                  <ul>
-                    <li style="text-decoration: none">
-                      <%=	msg.body  %>
+                  <ul style="list-style-type: none;">
+                    <li>
+                      <%=	msg.user.username  %>:<p><%=	msg.body  %></p>
                     </li>
                   </ul>
                 <% end %>
