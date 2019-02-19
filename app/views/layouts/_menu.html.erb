@@ -11,8 +11,10 @@
       Account <i class="dropdown icon"></i>
       <div class="menu">
         <a class="item" href=" <%= login_path %>">Login</a>
+        <% if logged_in? %>
         <a class="item">Logout</a>
-        <a class="item" href=" <%= root_path %>">Sing Up</a>
+        <% end %>
+        <a class="item" href=" <%= root_path %>">Sign Up</a>
       </div>
     </div>
     <div class="item">
