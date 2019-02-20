@@ -12,14 +12,17 @@
       <div class="menu">
         <a class="item" href=" <%= login_path %>">Login</a>
         <% if logged_in? %>
-        <a class="item">Logout</a>
-        <% end %>
+            <%=	 link_to "Logout", logout_path, method: :delete, class: "item" %>
+        <% else %>
         <a class="item" href=" <%= root_path %>">Sign Up</a>
+        <% end %>
       </div>
     </div>
-    <div class="item">
-      <div class="ui primary button">Sign Up</div>
+    <% if !logged_in? %>
+  <div class="item">
+    <%=	 link_to "Log in", login_path, class: "ui primary button" %>
     </div>
-  </div>
+    <% end %>
+      </div>
   </div>
 </div>
