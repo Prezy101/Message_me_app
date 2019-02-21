@@ -1,3 +1,4 @@
+<% if logged_in?	  %>
 <%= render 'layouts/menu' %>
 <%= render 'layouts/messages' %>
 
@@ -60,4 +61,12 @@
     </div>
   </div>
 </div>
+<%	else  %>
+    <script type="text/javascript">
+        window.location.href="/login"  // put your correct path in a string here
+    </script>
+   <% flash[:error] = 'You must be logged in to perform that action' %>
+
+<%	end  %>
+
 
